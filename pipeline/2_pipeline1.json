@@ -1,0 +1,17 @@
+{
+	"name": "2_pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "for file",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 40
+				}
+			}
+		],
+		"annotations": []
+	}
+}
